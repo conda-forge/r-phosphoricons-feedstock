@@ -1,4 +1,4 @@
-{% set version = '0.1.1' %}
+{% set version = "0.1.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/phosphoricons_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/phosphoricons/phosphoricons_{{ version }}.tar.gz
-  sha256: 26d2289d1119dce8cc3c90a8f483d8557bd3f38f12029790a8661a58e80b2b4f
+  sha256: d85a48ec49e434e6dae33a05c4a4fa283af1f975db9ef460f606cfedb92217df
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -39,9 +39,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=phosphoricons
   license: MIT
-  summary: Use 'Phosphor' icons in 'shiny' applications or 'rmarkdown' documents. Icons are available
-    in 5 different weights and can be customized by setting color, size, orientation
-    and more.
+  summary: Use 'Phosphor' icons in 'shiny' applications or 'rmarkdown' documents. Icons are available in 5 different weights and can be customized by setting color, size, orientation and more.
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
