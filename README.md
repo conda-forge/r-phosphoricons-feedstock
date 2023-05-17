@@ -1,11 +1,11 @@
-About r-phosphoricons
-=====================
+About r-phosphoricons-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-phosphoricons-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=phosphoricons
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-phosphoricons-feedstock/blob/main/LICENSE.txt)
 
 Summary: Use 'Phosphor' icons in 'shiny' applications or 'rmarkdown' documents. Icons are available in 5 different weights and can be customized by setting color, size, orientation and more.
 
